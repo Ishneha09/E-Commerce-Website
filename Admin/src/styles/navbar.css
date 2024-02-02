@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  margin-bottom: 1px;
+  box-shadow: 0 1px 3px -2px #000;
+  background: white;
+}
+.navbar .text {
+  position: absolute;
+  left: 10%;
+
+  > p {
+    position: relative;
+    bottom: 1rem;
+  }
+}
+.nav-right {
+  position: absolute;
+  right: 7%;
+}
+
+.nav-logo {
+  width: 75px;
+}
+
+.nav-profile {
+  width: 40px;
+}
